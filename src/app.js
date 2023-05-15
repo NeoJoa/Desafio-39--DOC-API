@@ -50,7 +50,7 @@ const swaggerOptions = {
       description: "APIs desarrolladas que conforman parte del proyecto",
     },
   },
-  apis: [`./docs/**.yaml`],
+  apis: [`./src/docs/**.yaml`],
 };
 
 const specs = swaggerJsdoc(swaggerOptions);
